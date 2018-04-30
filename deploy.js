@@ -18,7 +18,7 @@ function cloneRepo() {
 	console.log("Cloning repo...");
 	// delete old copy of repo. Then, clone a fresh copy of repo from GitHub
 	cmd.get(
-		'rm -rf starter-node-angular && git clone https://github.com/scotch-io/starter-node-angular',
+		'rm -rf starter-node-angular && git clone https://github.com/rocobiz/starter-node-angular',
 		function(err, data, stderr){
 			console.log("cloneRepo callback\n\t err: " + err + "\n\t data: " + data + "\n\t stderr: " + stderr);
 			if(err == null){
